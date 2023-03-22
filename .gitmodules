@@ -1,0 +1,3 @@
+[submodule "bar-chart-demo"]
+	path = bar-chart-demo
+	url = git@github.com:njj-abs/bar-chart-demo.git
