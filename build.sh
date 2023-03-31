@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pnpm i
+npm i
 git clone "$1" .app
 cd .app
 pnpm i

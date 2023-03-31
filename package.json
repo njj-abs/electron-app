@@ -31,13 +31,13 @@
     "electron-builder": "^23.6.0"
   },
   "build": {
-		"appId": "com.company.AppName",
-		"linux": {
-			"target": [
-				"AppImage",
-				"deb"
-			],
-			"category": "Utility"
-		}
-	}
+    "appId": "com.company.AppName",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Utility"
+    }
+  }
 }
