@@ -29,5 +29,15 @@
     "@electron-forge/maker-zip": "^6.0.5",
     "electron": "23.1.4",
     "electron-builder": "^23.6.0"
-  }
+  },
+  "build": {
+		"appId": "com.company.AppName",
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb"
+			],
+			"category": "Utility"
+		}
+	}
 }

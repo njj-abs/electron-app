@@ -8,4 +8,6 @@ pnpm build
 cd ..
 rm -rf src/build
 mv .app/build src
+rm -rf dist
 pnpm build
+rm -rf .app
