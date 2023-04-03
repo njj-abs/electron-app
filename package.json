@@ -32,6 +32,11 @@
   },
   "build": {
     "appId": "com.company.AppName",
+    "files": [
+      "src/**",
+      "package.json",
+      "!**/build.sh"
+    ],
     "linux": {
       "target": [
         "AppImage",
