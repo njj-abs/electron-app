@@ -32,6 +32,8 @@
   },
   "build": {
     "appId": "com.company.AppName",
+    "productName": "Electron-Build",
+    "artifactName": "${productName}-setup-${version}.${ext}",
     "files": [
       "src/**",
       "package.json",
